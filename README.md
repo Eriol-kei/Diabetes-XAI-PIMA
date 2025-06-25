@@ -19,50 +19,66 @@ We go beyond basic classification by introducing:
 ---
 
 📌 Installation & Running
-
 Clone the repository:
 
+bash
+Copy
+Edit
 git clone https://github.com/yourusername/Diabetes-XAI-PIMA.git
-
 cd Diabetes-XAI-PIMA
+(Optional but Recommended) Create a virtual environment:
 
-(Optional but Recommended)
-
-Create a virtual environment:
-
+bash
+Copy
+Edit
 python -m venv venv
 source venv/bin/activate        # On Linux/Mac
 venv\Scripts\activate           # On Windows
 Install required libraries:
 
-
+bash
+Copy
+Edit
 pip install -r requirements.txt
 ✅ Project Features
 📈 Exploratory Data Analysis (EDA)
 
 🧪 Data Cleaning and Missing Value Handling
+
 ⚖️ Class Balancing using SMOTE
+
 🌲 Random Forest Classifier with hyperparameter tuning
+
 📊 Performance Metrics: Accuracy, Precision, Recall, F1-Score, ROC-AUC
 
 🔎 Multiple SHAP Explainability Plots:
 
 Beeswarm Plot
+
 Feature Importance Bar Plot
+
 Force / Waterfall Plot
+
 Dependence Plot
 
 🖥️ Running the Notebook
 You can run the notebook either:
+
 Locally using Jupyter Notebook
 OR
+
 Directly in Google Colab with this badge:
 
 
 📂 Files in This Repo
 pima_diabetes_rf_shap.ipynb → Full Python notebook with code, plots, and SHAP visualizations
+
 requirements.txt → Python dependencies
+
 README.md → Project documentation
+
 .gitignore → Ignore unnecessary system and IDE files
+
 LICENSE → MIT License
+
 
