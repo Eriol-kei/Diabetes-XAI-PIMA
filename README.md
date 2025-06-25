@@ -21,24 +21,18 @@ We go beyond basic classification by introducing:
 📌 Installation & Running
 Clone the repository:
 
-bash
-Copy
-Edit
+
 git clone https://github.com/yourusername/Diabetes-XAI-PIMA.git
 cd Diabetes-XAI-PIMA
 (Optional but Recommended) Create a virtual environment:
 
-bash
-Copy
-Edit
+
 python -m venv venv
 source venv/bin/activate        # On Linux/Mac
 venv\Scripts\activate           # On Windows
 Install required libraries:
 
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 ✅ Project Features
 📈 Exploratory Data Analysis (EDA)
